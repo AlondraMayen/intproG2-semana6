@@ -1,6 +1,10 @@
-numero1 = int(input("Ingrese el primer numero: "))
-numero2 = int(input("Ingrese el segundo numero: "))
-multiplicacion = numero1 * numero2
+numero1 = int(input("Ingresa el primer número: "))
+numero2 = int(input("Ingresa el segundo número: "))
 
-print ("El resultrado de la multiplicacion es: ", multiplicacion)
+resultado = 0
 
+for i in range(numero1):
+    resultado += numero2
+    print(f" {numero1} * {numero2} = {resultado}")  
+
+print(f"\nEl resultado de {numero1} x {numero2} es: {resultado}")
